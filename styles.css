@@ -106,11 +106,64 @@ nav {
     color: #4CAF50;
 }
 
+#services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1f293a;
+    color: white;
+    border-radius: 10px;
+    margin: 50px 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+#testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border-radius: 10px;
+    margin: 50px 20px;
+}
+
+.testimonials-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: #27014a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+
 header {
     text-align: center;
     margin-top: 120px;
     color: #fff;
-    padding: 0 20px; /* Responsive padding */
+    padding: 0 20px;
 }
 
 h1 {
@@ -125,9 +178,9 @@ p {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap; /* Wrap the buttons on smaller screens */
+    flex-wrap: wrap;
     margin-top: 50px;
-    padding: 0 20px; /* Responsive padding */
+    padding: 0 20px;
 }
 
 .button {
@@ -141,8 +194,8 @@ p {
     align-items: center;
     gap: 10px;
     transition: background-color 0.3s, transform 0.3s;
-    flex: 1 1 200px; /* Make buttons responsive */
-    max-width: 300px; /* Limit the maximum width of buttons */
+    flex: 1 1 200px;
+    max-width: 300px;
 }
 
 .button:hover {
@@ -187,7 +240,7 @@ footer {
     border-top: 1px solid #ddd;
 }
 
-/* Media queries for responsiveness */
+
 @media (max-width: 1200px) {
     .nav-container {
         width: 100%;
